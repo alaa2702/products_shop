@@ -1,5 +1,4 @@
 // Create the user service
-import e from "express";
 import prisma from "../utils/prisma";
 
 export const createUserService = async (username: string, email: string, password: string) => {

@@ -7,7 +7,7 @@ import { errorHandler } from "./utils/errorHandler";
 const port = 3000;
 const app = Express();
 app.use(Express.json());
-app.use(notFoundData);
+//app.use(notFoundData);
 app.use("/api/v1", productRouter);
 app.use("/api/v1", cartRouter);
 app.use("/api/v1", userRouter);
